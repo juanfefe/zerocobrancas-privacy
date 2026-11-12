@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Política de Privacidade — Zero Cobranças</title>
+<meta name="description" content="Política de privacidade do app Zero Cobranças (Android): como os dados de contatos, triagem de chamadas e assinaturas são tratados." />
+<meta name="theme-color" content="#050816" />
+<style>
+  :root{
+    --bg:#050816; --card:#0f1525; --card2:#141b2e; --line:#232d47;
+    --txt:#eef2ff; --dim:#9aa3b8; --red:#ff1744; --cyan:#00d4ff; --green:#00ff88;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    background:var(--bg);color:var(--txt);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased;
+    background-image:radial-gradient(ellipse 70% 40% at 50% -10%, rgba(0,212,255,.10), transparent 60%),
+                   radial-gradient(ellipse 60% 40% at 90% 110%, rgba(255,23,68,.10), transparent 60%);
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+  header{text-align:center;padding:28px 0 10px}
+  .shield{width:64px;height:64px;margin:0 auto 14px;border-radius:18px;
+    background:linear-gradient(140deg,#ff1744,#cc0033);display:flex;align-items:center;justify-content:center;
+    font-size:28px;box-shadow:0 10px 26px rgba(255,23,68,.3)}
+  h1{font-size:27px;letter-spacing:-.02em;line-height:1.2}
+  .sub{color:var(--dim);font-size:14px;margin-top:8px}
+  .badge{display:inline-block;margin-top:14px;padding:7px 15px;border-radius:999px;
+    background:rgba(0,255,136,.10);border:1px solid rgba(0,255,136,.35);color:var(--green);
+    font-size:12px;font-weight:700}
+  h2{font-size:19px;margin:38px 0 10px;padding-top:22px;border-top:1px solid var(--line);letter-spacing:-.01em}
+  h2:first-of-type{border-top:none;padding-top:8px}
+  h3{font-size:15px;margin:18px 0 6px;color:var(--cyan)}
+  p{margin:10px 0;color:#d3daea}
+  ul{margin:10px 0 10px 20px;color:#d3daea}
+  li{margin:6px 0}
+  strong{color:#fff}
+  a{color:var(--cyan)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:14px 0}
+  .card h3{margin-top:0}
+  .tag{display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;
+    color:var(--cyan);background:rgba(0,212,255,.08);border:1px solid rgba(0,212,255,.25);
+    border-radius:6px;padding:2px 7px;margin-left:6px;white-space:nowrap}
+  table{width:100%;border-collapse:collapse;margin:12px 0;font-size:14px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.04em;font-weight:600}
+  .yes{color:var(--green);font-weight:700}
+  .no{color:var(--red);font-weight:700}
+  .foot{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+  .contact{background:var(--card2);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-top:14px}
+  @media (max-width:520px){ .wrap{padding:28px 16px 60px} h1{font-size:23px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="shield">🛡️</div>
+  <h1>Política de Privacidade</h1>
+  <div class="sub">Zero Cobranças — bloqueador de ligações para Android</div>
+  <div class="badge">Seus dados ficam no seu aparelho</div>
+</header>
+
+<p><strong>Resumo:</strong> o Zero Cobranças não possui servidores, não envia seus dados para lugar nenhum e não usa anúncios, rastreamento ou análise de uso. As únicas informações acessadas são a sua lista de contatos e o número de quem está ligando, e elas são usadas <strong>somente no seu próprio celular</strong> para decidir se a ligação deve passar ou ser bloqueada.</p>
+
+<h2>1. Quem é o responsável</h2>
+<div class="contact">
+  <p><strong>Zero Cobranças</strong> (aplicativo Android)<br>
+  Responsável: Juan Claudio Rodrigues Afonso<br>
+  E-mail de contato: <a href="mailto:filhojuanclaudio@gmail.com">filhojuanclaudio@gmail.com</a></p>
+</div>
+
+<h2>2. Quais dados o app acessa</h2>
+
+<div class="card">
+  <h3>Lista de contatos <span class="tag">READ_CONTACTS</span></h3>
+  <p>O app lê o nome e o número dos seus contatos para saber se quem está ligando está salvo na sua agenda. Essa leitura acontece <strong>no próprio aparelho</strong>, em memória, com cache temporário de 60 segundos. Os contatos <strong>não são copiados para um arquivo do app</strong>, não são gravados no histórico e não saem do celular.</p>
+</div>
+
+<div class="card">
+  <h3>Número de quem está chamando <span class="tag">CallScreeningService</span></h3>
+  <p>O Android entrega ao app o número da chamada que está entrando, para que o app possa decidir se ela passa ou é bloqueada. O número é usado apenas para essa decisão e, se a ligação for bloqueada, para registrar a entrada no <strong>histórico local</strong> do app. Nada é transmitido.</p>
+</div>
+
+<div class="card">
+  <h3>Estado do telefone <span class="tag">READ_PHONE_STATE</span></h3>
+  <p>Permissão exigida pelo próprio Android para o serviço de triagem de chamadas. É usada apenas para saber o estado da chamada (entrada/saída) enquanto a triagem acontece.</p>
+</div>
+
+<div class="card">
+  <h3>Notificações <span class="tag">POST_NOTIFICATIONS</span></h3>
+  <p>Se você ativar a opção, o app mostra uma notificação avisando quando uma ligação foi bloqueada e, no fim do período de teste, lembrando que a assinatura ainda não foi feita. Você pode desativar as notificações a qualquer momento nas configurações do Android.</p>
+</div>
+
+<div class="card">
+  <h3>Discador <span class="tag">ANSWER_PHONE_CALLS · MANAGE_OWN_CALLS</span></h3>
+  <p>Se você definir o Zero Cobranças como aplicativo de chamadas padrão, o app passa a poder <strong>discar</strong> números (ele tem um teclado simples para isso). Ele <strong>não grava áudio, não escuta chamadas e não acessa o microfone</strong>. Se preferir, basta manter o seu discador habitual: a triagem de chamadas funciona de forma independente.</p>
+</div>
+
+<h2>3. Assinatura e compras</h2>
+<p>As compras são processadas <strong>integralmente pelo Google Play</strong>. O app não pede, não recebe e não armazena número de cartão, CVV, nome ou qualquer dado financeiro.</p>
+<ul>
+  <li>O app pede ao Google Play apenas a <strong>lista de produtos e o preço</strong> (para mostrar o valor na tela de assinatura) e o <strong>estado da sua compra</strong> (pendente, aprovada ou cancelada).</li>
+  <li>O pagamento, o cartão, o cupom fiscal e a nota de compra ficam com o Google Play. A política de privacidade do Google Play se aplica integralmente a essa parte: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</li>
+  <li>No aparelho, o app guarda apenas se você tem uma assinatura ativa e até quando ela vale, em preferências locais do próprio app.</li>
+  <li>O botão <strong>“Restaurar compra”</strong> consulta o Google Play para reativar o acesso caso você troque de aparelho ou reinstale o app.</li>
+</ul>
+
+<table>
+  <thead><tr><th>Plano</th><th>Preço</th><th>Como funciona</th></tr></thead>
+  <tbody>
+    <tr><td>Mensal</td><td>R$ 9,90</td><td>Renova todo mês até você cancelar</td></tr>
+    <tr><td>Anual</td><td>R$ 49,90</td><td>Renova uma vez por ano</td></tr>
+    <tr><td>Vitalício</td><td>R$ 29,90</td><td>Pagamento único, nunca renova</td></tr>
+  </tbody>
+</table>
+<p>Todos os planos têm <strong>7 dias de teste grátis</strong>. A cobrança só começa depois do período de teste. Para cancelar uma assinatura, vá em <strong>Assinaturas do Google Play</strong> no seu aparelho; o acesso já pago continua valendo até o fim do período vigente.</p>
+
+<h2>4. O que o app <strong>não</strong> faz</h2>
+<ul>
+  <li><span class="no">Não</span> possui servidores, conta de usuário ou sincronização em nuvem.</li>
+  <li><span class="no">Não</span> envia contatos, histórico de chamadas ou listas para nenhum servidor.</li>
+  <li><span class="no">Não</span> contém anúncios, trackers, SDKs de análise de comportamento ou pixels.</li>
+  <li><span class="no">Não</span> compartilha, vende ou cede dados a terceiros.</li>
+  <li><span class="no">Não</span> usa Google Play Services para rastreamento (o app não depende de ele).</li>
+  <li><span class="no">Não</span> acessa câmera, microfone, SMS, localização, galeria ou arquivos.</li>
+  <li><span class="no">Não</span> lê o registro de chamadas do sistema.</li>
+</ul>
+
+<h2>5. Onde os dados ficam guardados</h2>
+<p>Tudo é gravado no <strong>armazenamento interno do app</strong>, no seu aparelho, em preferências privadas do Android:</p>
+<ul>
+  <li><strong>Histórico de ligações bloqueadas</strong> — no máximo 500 entradas, até você apagar o histórico pelo próprio app.</li>
+  <li><strong>Lista negra</strong> e <strong>lista de permitidos</strong> — até você remover os números.</li>
+  <li><strong>Preferências</strong> (proteção ligada, bloquear privados, som das notificações, etc.).</li>
+</ul>
+<p>Ao desinstalar o app, esses dados são apagados. O Android pode incluir o conteúdo do app no <strong>backup automático do Google</strong> que você tenha ativado no seu aparelho — se não quiser isso, desative o backup nas configurações do sistema para este app.</p>
+
+<h2>6. Permissões e como revogá-las</h2>
+<p>Você pode revogar qualquer permissão a qualquer momento em <strong>Configurações do Android → Aplicativos → Zero Cobranças → Permissões</strong>. Ao revogar a permissão de contatos, o app deixa de conseguir identificar quem está nos seus contatos e pode bloquear ligações de quem você salvou — por isso a permissão é pedida logo na primeira abertura.</p>
+
+<h2>7. Seus direitos (LGPD e GDPR)</h2>
+<p>Na qualidade de titular, você pode a qualquer momento: <strong>acessar</strong>, <strong>corrigir</strong>, <strong>exportar</strong> ou <strong>excluir</strong> seus dados, revogar o consentimento e pedir a eliminação das informações tratadas. Como todos os dados ficam no aparelho, basta usar o botão de apagar o histórico e as listas dentro do app — ou desinstalar o app — para que sejam eliminados. Para qualquer outra solicitação, escreva para <a href="mailto:filhojuanclaudio@gmail.com">filhojuanclaudio@gmail.com</a>.</p>
+
+<h2>8. Crianças</h2>
+<p>O app não é direcionado a crianças e não coleta conscientemente dados de crianças. Caso Detecte que uma criança fez uma compra, entre em contato com o developer para reembolso.</p>
+
+<h2>9. Alterações nesta política</h2>
+<p>Esta política pode ser atualizada para refletir melhorias no app ou mudanças legais. A data da última atualização fica sempre visível no topo desta página, e a versão publicada do app sempre correspondente à versão vigente aqui.</p>
+
+<div class="foot">
+  <p><strong>Última atualização:</strong> 12 de novembro de 2026<br>
+  Zero Cobranças · <a href="mailto:filhojuanclaudio@gmail.com">filhojuanclaudio@gmail.com</a></p>
+</div>
+
+</div>
+</body>
+</html>
